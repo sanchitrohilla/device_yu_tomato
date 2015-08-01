@@ -54,12 +54,6 @@ service_redefine config_bt_addr /system/bin/btnvtool -b /system/bin/yl_btmac
     user bluetooth
     group bluetooth radio
     oneshot
-
-service baseband-sh /system/bin/sh /system/etc/set_baseband.sh
-    class late_start
-    user root
-    oneshot
-
 on init
 
 service imsqmidaemon /system/bin/imsqmidaemon
@@ -99,4 +93,3 @@ service ims_trigger /init.qti.ims.sh
     class main
     user root
     oneshot
-
