@@ -39,7 +39,7 @@
 
 using android::base::GetProperty;
 
-static int display_density = 320;
+static int display_density = 230;
 
 static void import_cmdline(const std::string& key,
         const std::string& value, bool for_emulator __attribute__((unused)))
