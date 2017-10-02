@@ -105,8 +105,8 @@
     <!-- Add Night Display -->
     <bool name="config_nightDisplayAvailable">true</bool>
 
-    <!-- Enable Navigation Bar -->
-    <bool name="config_showNavigationBar">true</bool>
+    <!-- Enable Navigation Bar
+    <bool name="config_showNavigationBar">true</bool> -->
 
     <!-- Enable doze mode
          ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
