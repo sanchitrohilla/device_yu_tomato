@@ -34,3 +34,10 @@ $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
 PRODUCT_PACKAGES +=\
 MiXplorer \
 MusicPlayer
+
+PRODUCT_COPY_FILES +=\
+ $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass.so:/system/app/MusicPlayer/lib/arm/libbass.so \
+ $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassflac.so:/system/app/MusicPlayer/lib/arm/libbassflac.so \
+ $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_fx.so:/system/app/MusicPlayer/lib/arm/libbass_fx.so \
+ $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassmix.so:/system/app/MusicPlayer/lib/arm/libbassmix.so \
+ $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_aac.so:/system/app/MusicPlayer/lib/arm/libbass_aac.so
