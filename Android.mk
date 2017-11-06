@@ -38,8 +38,8 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Lawnchair
-LOCAL_SRC_FILES := extra/Lawnchair.apk
+LOCAL_MODULE := NexusLauncher
+LOCAL_SRC_FILES := extra/NexusLauncher.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
