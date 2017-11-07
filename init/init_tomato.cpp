@@ -47,7 +47,7 @@ static void import_cmdline(const std::string& key,
     if (key.empty()) return;
 
     if (key == "panel.xres" && value == "1080") {
-        display_density = 480;
+        display_density = 410;
     }
 }
 
@@ -57,7 +57,7 @@ void init_target_properties()
     import_kernel_cmdline(0, import_cmdline);
     snprintf(density, sizeof(density), "%d", display_density);
     property_set("ro.sf.lcd_density", density);
-    if (display_density == 480) {
+    if (display_density == 410) {
         property_set("ro.product.model", "YU5510");
         property_set("dalvik.vm.heapstartsize", "16m");
         property_set("dalvik.vm.heapgrowthlimit", "192m");
