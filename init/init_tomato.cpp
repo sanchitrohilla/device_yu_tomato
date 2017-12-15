@@ -38,7 +38,8 @@
 #include "init_msm8916.h"
 
 using android::base::GetProperty;
-
+using android::init::property_set;
+using android::init::import_kernel_cmdline;
 static int display_density = 230;
 
 static void import_cmdline(const std::string& key,
