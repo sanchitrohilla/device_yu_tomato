@@ -49,3 +49,6 @@ cm_charger_res_images \
 font_log.png \
 libhealthd.cm
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0
