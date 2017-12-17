@@ -65,6 +65,9 @@
     -->
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
+    <!-- Enable Custom Button Brightness -->
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
     <dimen name="config_viewConfigurationTouchSlop">4dp</dimen>
