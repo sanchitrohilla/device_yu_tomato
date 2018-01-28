@@ -14,4 +14,5 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false \
-    persist.camera.hal.debug.mask=0
+    persist.camera.hal.debug.mask=0 \
+    persist.camera.HAL3.enabled=1
