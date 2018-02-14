@@ -41,3 +41,5 @@ cm_charger_res_images \
 font_log.png \
 libhealthd.cm
 
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
