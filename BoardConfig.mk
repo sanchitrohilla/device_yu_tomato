@@ -24,3 +24,5 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 include vendor/yu/tomato/BoardConfigVendor.mk
 
 WITH_DEXPREOPT := false
+DONT_DEXPREOPT_PREBUILTS := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
