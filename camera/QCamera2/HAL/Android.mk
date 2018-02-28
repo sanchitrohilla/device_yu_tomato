@@ -52,7 +52,7 @@ LOCAL_CFLAGS += -DDEFAULT_DENOISE_MODE_ON
 LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../stack/common \
         frameworks/native/include \
-        ../../../nativebase/include/ \
+        frameworks/native/libs/nativebase/include/ \
         frameworks/native/libs/nativewindow/include/ \
         frameworks/native/include/media/openmax \
         $(call project-path-for,qcom-display)/libgralloc \
