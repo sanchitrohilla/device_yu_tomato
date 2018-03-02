@@ -1,1 +1,1 @@
-add_lunch_combo cardinal_tomato-userdebug
+add_lunch_combo aosp_tomato-userdebug

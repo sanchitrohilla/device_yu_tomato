@@ -15,12 +15,12 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cardinal/common.mk)
+$(call inherit-product, vendor/nexus/configs/abc_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-PRODUCT_NAME := cardinal_tomato
+PRODUCT_NAME := aosp_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
@@ -30,8 +30,6 @@ TARGET_VENDOR_PRODUCT_NAME := YUREKA
 TARGET_VENDOR_DEVICE_NAME := YUREKA
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=YUREKA PRODUCT_NAME=YUREKA
 
-# Cardinal flags
-CARDINAL_RELEASE := true
 
 ## Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
