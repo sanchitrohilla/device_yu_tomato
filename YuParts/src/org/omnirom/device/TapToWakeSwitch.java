@@ -25,7 +25,7 @@ import android.preference.PreferenceManager;
 
 public class TapToWakeSwitch implements OnPreferenceChangeListener {
 
-    private static final String FILE = "/sys/android_touch/doubletap2wake";
+    private static final String FILE = "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl";
 
     public static String getFile() {
         if (Utils.fileWritable(FILE)) {
