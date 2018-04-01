@@ -26,3 +26,4 @@ include vendor/yu/tomato/BoardConfigVendor.mk
 WITH_DEXPREOPT := false
 DONT_DEXPREOPT_PREBUILTS := true
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+ALLOW_MISSING_DEPENDENCIES := true
