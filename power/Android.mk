@@ -23,6 +23,7 @@ LOCAL_SHARED_LIBRARIES := liblog libcutils libdl
 LOCAL_SRC_FILES := power.c \
                    metadata-parser.c \
                    utils.c \
+                   power-feature.c \
                    list.c \
                    hint-data.c \
                    power-8916.c
@@ -32,5 +33,6 @@ ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
 endif
 
 LOCAL_MODULE := power.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := libpower_set_feature_tomato
 LOCAL_MODULE_TAGS := optional
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
