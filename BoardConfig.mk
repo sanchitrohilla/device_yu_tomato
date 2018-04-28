@@ -24,3 +24,4 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 include vendor/yu/tomato/BoardConfigVendor.mk
 ALLOW_MISSING_DEPENDENCIES =true
 WITH_DEXPREOPT := false
+TARGET_CRYPTFS_HW_PATH := device/yu/tomato/cryptfs_hw
