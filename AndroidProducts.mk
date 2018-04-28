@@ -15,4 +15,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr.mk
+    $(LOCAL_DIR)/nitrogen_tomato.mk
