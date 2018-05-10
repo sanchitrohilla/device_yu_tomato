@@ -7,5 +7,5 @@ TARGET_KERNEL_CONFIG := lineageos_tomato_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-KERNEL_TOOLCHAIN := /home/sanchitrohilla64/linaro7/bin
+KERNEL_TOOLCHAIN := /home/sanchit/linaro7/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
