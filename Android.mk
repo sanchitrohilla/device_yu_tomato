@@ -29,8 +29,8 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MusicPlayer
-LOCAL_SRC_FILES := extra/MusicPlayer.apk
+LOCAL_MODULE := Markup
+LOCAL_SRC_FILES := extra/Markup.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
