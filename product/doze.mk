@@ -1,3 +1,5 @@
-PRODUCT_PACKAGES += \
-    YuParts \
-    YuDoze
+
+# Doze mode
+ PRODUCT_PACKAGES += \
+     YUDoze \
+     YuParts
