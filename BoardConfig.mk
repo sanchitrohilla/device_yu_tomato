@@ -25,3 +25,6 @@ include vendor/yu/tomato/BoardConfigVendor.mk
 ALLOW_MISSING_DEPENDENCIES =true
 WITH_DEXPREOPT := false
 TARGET_CRYPTFS_HW_PATH := device/yu/tomato/cryptfs_hw
+
+#Selinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
