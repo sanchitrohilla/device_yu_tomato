@@ -26,7 +26,7 @@
 #
 
 on init
-    export LD_SHIM_LIBS /system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so:/system/vendor/lib64/libflp.so|libshims_flp.so
+    export LD_SHIM_LIBS /system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so
 
 on boot
     # change file owner for factory test

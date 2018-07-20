@@ -3,8 +3,7 @@ PRODUCT_PACKAGES += \
     gps.msm8916 \
     libcurl \
     libgnss \
-    libgnsspps \
-    libshims_flp
+    libgnsspps
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl-qti \
