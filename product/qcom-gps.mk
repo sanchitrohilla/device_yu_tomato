@@ -4,7 +4,8 @@ PRODUCT_PACKAGES += \
     libcurl \
     libgnss \
     libgnsspps \
-    libshims_flp
+    libshims_flp \
+    libshims_get_process_name
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl-qti \
