@@ -1,1 +1,2 @@
-add_lunch_combo nitrogen_tomato-userdebug
+add_lunch_combo aosp_tomato-userdebug
+add_lunch_combo aosp_tomato-eng

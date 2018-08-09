@@ -3,24 +3,23 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := sensors.$(TARGET_BOARD_PLATFORM)
-
 LOCAL_MODULE_RELATIVE_PATH    := hw
 
 LOCAL_C_INCLUDES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
-LOCAL_SRC_FILES :=	\
-        sensors.cpp             \
-        SensorBase.cpp          \
-        LightSensor.cpp         \
-        ProximitySensor.cpp     \
-        Accelerometer.cpp       \
-        Gyroscope.cpp           \
-        InputEventReader.cpp    \
+LOCAL_SRC_FILES := \
+        sensors.cpp \
+        SensorBase.cpp \
+        LightSensor.cpp  \
+        ProximitySensor.cpp \
+        Accelerometer.cpp \
+        Gyroscope.cpp \
+        InputEventReader.cpp \
         CalibrationManager.cpp  \
-		TomatoSensors.cpp       \
-		NativeSensorManager.cpp \
-		VirtualSensor.cpp 
+        TomatoSensors.cpp \
+	NativeSensorManager.cpp \
+        VirtualSensor.cpp
 
 LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libutils
 
